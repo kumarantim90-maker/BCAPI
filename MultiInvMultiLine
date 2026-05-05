@@ -1,0 +1,62 @@
+https://raw.githubusercontent.com/kumarantim90-maker/BCAPI/refs/heads/main/MultiplePurchase
+
+
+{
+  "invoices": [
+    {
+      "invoiceNo": "INV-99",
+      "vendorNo": "10000",
+      "postingDate": "2026-05-01",
+      "documentDate": "2026-05-01",
+      "dueDate": "2026-05-31",
+      "currencyCode": " ",
+      "lines": [
+        {
+          "type": "Item",
+          "no": "1000",
+          "description": "Laptop",
+          "quantity": 13,
+          "unitCost": 50000
+        },
+        {
+          "type": "G/L Account",
+          "no": "8320",
+          "description": "Consultant Services",
+          "quantity": 1,
+          "unitCost": 35000
+        }
+      ]
+    },
+    {
+      "invoiceNo": "INV-100",
+      "vendorNo": "20000",
+      "postingDate": "2026-05-02",
+      "documentDate": "2026-05-02",
+      "dueDate": "2026-06-01",
+      "currencyCode": " ",
+      "lines": [
+        {
+          "type": "G/L Account",
+          "no": "8131",
+          "description": "Rent",
+          "quantity": 5,
+          "unitCost": 15000
+        },
+        {
+          "type": "Item",
+          "no": "1011",
+          "description": "Mobile",
+          "quantity": 10,
+          "unitCost": 1000
+        },
+	{
+          "type": "Item",
+          "no": "1012",
+          "description": "Testing33",
+          "quantity": 6,
+          "unitCost": 6000
+        }
+      ]
+    }
+  ]
+}
