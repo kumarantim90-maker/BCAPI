@@ -1,0 +1,38 @@
+{
+  "invoices": [
+    {
+      "invoiceNo": "INV-1099",
+      "vendorNo": "10000",
+      "postingDate": "2026-05-01",
+      "documentDate": "2026-05-01",
+      "dueDate": "2026-05-31",
+      "currencyCode": " ",
+      "lines": [
+        {
+          "type": "Item",
+          "no": "1000",
+          "description": "Laptop",
+          "quantity": 2,
+          "unitCost": 50000
+        }
+      ]
+    },
+    {
+      "invoiceNo": "INV-1100",
+      "vendorNo": "20000",
+      "postingDate": "2026-05-02",
+      "documentDate": "2026-05-02",
+      "dueDate": "2026-06-01",
+      "currencyCode": " ",
+      "lines": [
+        {
+          "type": "G/L Account",
+          "no": "8430",
+          "description": "Consulting",
+          "quantity": 1,
+          "unitCost": 20000
+        }
+      ]
+    }
+  ]
+}
