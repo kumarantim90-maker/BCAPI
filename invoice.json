@@ -1,18 +1,17 @@
 {
-  "invoiceNo": "INV-1001",
-  "vendorNo": "V0001",
+  "invoiceNo": "INV-1002",
+  "vendorNo": "10000",
   "postingDate": "2026-05-01",
   "documentDate": "2026-05-01",
   "dueDate": "2026-05-31",
-  "currencyCode": "INR",
+  "currencyCode": " ",
   "lines": [
     {
       "type": "Item",
       "no": "1000",
       "description": "Laptop",
-      "quantity": 2,
-      "unitCost": 50000,
-      "gstGroupCode": "GST18"
+      "quantity": 12,
+      "unitCost": 50000      
     }
   ]
 }
